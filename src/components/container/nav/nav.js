@@ -7,7 +7,7 @@ class Nav extends Component{
         return(
             <nav className={`nav navbar bg-dark text-light`}>
                     <h2 className={`align-self-right`}>Stephan Falcon</h2>
-                    <div class="d-flex flex-row-reverse">
+                    <div className={"d-flex flex-row-reverse"}>
                         <ul className={`nav `}>
                             <li className={`nav-item p-2`}>
                                 <a className={`nav-link text-light`} href={"/"}>Bio</a>
