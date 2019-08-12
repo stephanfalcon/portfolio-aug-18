@@ -1,11 +1,11 @@
-import express from "express"
+const express = require("express")
 
-const port = process.env.PORT|| 3000
+const port = process.env.PORT|| 3001
 
 const app = express()
 
-app.get("/",()=>{
-    console.log("you are here")
+app.get("/",(req,res)=>{
+    console.log()``
 })
 
 app.listen(port,()=>{

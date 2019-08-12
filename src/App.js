@@ -1,14 +1,26 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Container from "./components/container/container"
 
 
-function App() {
-  return (
-    <div>
-      <h1>
-        hello world
-      </h1>
-    </div>
-  );
+class App extends Component {
+  // state = {
+  //   obj : []
+  // }
+
+  componentDidMount(){
+    // fetch("/users")
+    //   .then(res => res.json())
+    //   .then(users => this.setState({obj:users},(res=>{
+    //     console.log(res)
+    //   })))
+      // .then(res => console.log(res))
+        // .then(users => console.log(users))
+        // .then(users => {this.setState({users}); console.log(users)})
+  }
+  
+  render(){
+    return (<Container/>);
+  }
 }
 
 export default App;
