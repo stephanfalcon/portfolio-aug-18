@@ -1,6 +1,6 @@
 import React, {Component} from "react"
-import Badge from "./badges/badge"
-import "./style.css"
+import Badge from "../badges/badge"
+// import "./style.css"
 
 class Skills extends Component{
 
@@ -8,10 +8,10 @@ class Skills extends Component{
         return(
             <div>
                 <h1>Skills</h1>
-                <div>
-                    <Badge img={"./img/mongo-logo.png"} name={"Mongo"}/>
-                    <Badge img={"./img/express-logo.png"} name={"Express"}/>
-                    <Badge img={"./img/react-logo.png"} name={"React"}/>
+                <div className = {"row"}>
+                    <Badge img={"/mongo-logo.png"} name={"Mongo"}/>
+                    <Badge img={"/express-logo.png"} name={"Express"}/>
+                    <Badge img={"/react-logo.png"} name={"React"}/>
                     <Badge img={"/node-logo.png"} name={"Node"}/>
                 </div>
             </div>

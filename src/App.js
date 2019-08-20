@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Container from "./components/container/container"
-
+import Contact from "./components/container/contact/contact"
 
 class App extends Component {
   // state = {
@@ -19,7 +19,13 @@ class App extends Component {
   }
   
   render(){
-    return (<Container/>);
+    return (
+      <div>
+        <Container/>
+        <Contact/>
+      </div>
+      
+    );
   }
 }
 

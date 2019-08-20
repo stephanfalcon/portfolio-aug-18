@@ -1,0 +1,13 @@
+.badges{
+    height:250px;
+    background:rgb(118, 116, 141);
+    width:250px;
+    padding:10px;
+    border-radius:25px;
+    transition-duration:.75s;
+}
+
+.badges:hover{
+
+    background-color:white
+}
