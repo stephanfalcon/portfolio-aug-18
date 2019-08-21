@@ -9,10 +9,10 @@ class Projects extends Component{
             <div>
                 <h1>Projects</h1>
                 <div className={"row"}>
-                <Badges img={"/speakeasy-badge.png"} name={"Speakeasy"}/>
-                <Badges img={"/green-logo.png"} name={"Food planner app"}/>
-                <Badges img={"/billpay-badge.png"} name={"Billpay"}/>
-                <Badges img={"/github-logo.png"} name={"Github repos"}/>
+                <Badges img={"/speakeasy-badge.png"} name={"Speakeasy"} link={"https://speakeasydrinks.herokuapp.com/"}/>
+                <Badges img={"/green-logo.png"} name={"Food planner app"} link={"https://stephanfalcon.github.io/PlusUltraProject/"}/>
+                <Badges img={"/billpay-badge.png"} name={"Billpay"} link={""}/>
+                <Badges img={"/github-logo.png"} name={"Github repos"} link={""}/>
                 </div>
                 
             </div>

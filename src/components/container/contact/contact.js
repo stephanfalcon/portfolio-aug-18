@@ -6,8 +6,9 @@ class Contact extends Component{
         return(
             <div className={"bg-dark contact text-light"}>
                 <div className={"container"}>
-                    <h1>Contact</h1>
-                    <div className={"row"}>
+                    {/* <h1>Contact</h1> */}
+                    
+                    <div className={"row text-center"}>
                         <div className={"col-lg-4"}>
                             <h3>Email</h3>
                             <a href={"mailto:hoobaloob99@gmail.com"}><li>hoobaloob99@gmail.com</li></a>
