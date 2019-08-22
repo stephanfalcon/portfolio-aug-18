@@ -12,7 +12,7 @@ class Container extends Component{
     render(){
         return(
             <div>
-                <Nav/> 
+                {/* <Nav/>  */}
                 <div className={`container`}>
                     <Bio/>
                     <Skills/>

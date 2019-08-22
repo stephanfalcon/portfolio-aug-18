@@ -4,7 +4,7 @@ import "./style.css"
 class Contact extends Component{
     render(){
         return(
-            <div className={"bg-dark contact text-light"}>
+            <div className={"contact text-light"}>
                 <div className={"container"}>
                     {/* <h1>Contact</h1> */}
                     
