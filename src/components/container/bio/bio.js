@@ -13,7 +13,7 @@ class Bio extends Component{
                     <h1>Bio</h1>
                     <div className={"row"}>
                         <div className={`col-lg-5`}>
-                            <img style={imgob}src={`https://cdn.discordapp.com/attachments/387846042147880963/607832414219403274/1564208778617.jpg`} alt={"ldfjs"}></img>
+                            <img style={imgob}src={`/croppedMe.jpg`} alt={"ldfjs"}></img>
                         </div>
                         <div className={`col-lg-3`}>
 

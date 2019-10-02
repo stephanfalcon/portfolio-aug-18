@@ -1,5 +1,8 @@
 .header{
-    background-color:rgb(118, 116, 141);
+    /* background-color:rgb(118, 116, 141); */
     background-repeat:no-repeat;
     background-size:100%;
+    background-image:url("/wasatch.jpg");
+    background-position:0px,50px,0px,0px; 
+    height:25%
 }
