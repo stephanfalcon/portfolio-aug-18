@@ -3,6 +3,7 @@ import Nav from "./nav/nav"
 import Bio from "./bio/bio"
 import Skills from "./skills/skills"
 import Projects from "./projects/projects"
+import Jumbotron from "./jumbotron/jumbotron"
 // import Contact from "./contact/contact"
 import "./style.css"
 
@@ -16,7 +17,9 @@ class Container extends Component{
                 <div className={`container`}>
                     <Bio/>
                     <Skills/>
+                    {/* <Jumbotron/> */}
                     <Projects/>
+                    {/* <Jumbotron/> */}
                 </div>
             </div>
         )

@@ -3,3 +3,10 @@ a{
     color:white;
     text-align: center;
 }
+.projects{
+    transition-duration:.5s;
+}
+.projects:hover{
+    border-radius:50px;
+    background-color:rgb(48, 48, 48);
+}

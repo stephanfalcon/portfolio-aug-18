@@ -1,0 +1,14 @@
+.bio{
+    font-size:36px;
+    background:rgb(118, 116, 141);
+    border-radius:20px;
+    width:150%;
+    padding:10px
+}
+.photo{
+    height:100%;
+    border-radius:20px;
+}
+.photoD{
+    height:50%
+}

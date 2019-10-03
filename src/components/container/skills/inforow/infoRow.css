@@ -1,0 +1,16 @@
+.infoRow{
+    background:rgb(98, 95, 116);
+    /* padding:10px; */
+    border-radius:10px;
+    margin:10px;
+    padding:5px;
+}
+.para{
+    /* margin-left:100px; */
+    font-size:20px;
+    /* width:100%; */
+}
+.skill{
+    margin:10px;
+    margin-left:20px;
+}
