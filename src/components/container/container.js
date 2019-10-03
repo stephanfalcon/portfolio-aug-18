@@ -16,9 +16,10 @@ class Container extends Component{
                 {/* <Nav/>  */}
                 <div className={`container`}>
                     <Bio/>
-                    <Skills/>
+                    
                     {/* <Jumbotron/> */}
                     <Projects/>
+                    <Skills/>
                     {/* <Jumbotron/> */}
                 </div>
             </div>
