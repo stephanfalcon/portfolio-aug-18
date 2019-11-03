@@ -11,6 +11,6 @@ app.get("/",(req,res)=>{
     console.log("hello there")
 })
 
-app.listen(port,()=>{
+app.listen(port,()=> {
     console.log(`listening on port ${port}`)
 })
