@@ -10,7 +10,7 @@ class Header extends Component{
                 <h1 className={"text-light"}>Stephan Falcon</h1>
 
                     <div className={"headDiv"}>
-                        <img className={"headImg "}src="http://localhost:3000/croppedMe.jpg"></img>
+                        <img className={"headImg "}src="/croppedMe.jpg"></img>
                     </div>
                         
                     
