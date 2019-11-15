@@ -1,4 +1,4 @@
-*{
+/* *{
     opacity: 0;
     animation-name: fade;
     animation-duration: 1.5s;
@@ -12,4 +12,12 @@
     to{
         opacity: 1;
     }
-}
+} */
+@media screen and (max-width: 800px) {
+    .bio{
+        margin-top:20px
+    }
+    .holder{
+        margin:auto
+    }
+  }

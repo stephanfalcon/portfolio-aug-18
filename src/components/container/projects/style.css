@@ -1,12 +1,15 @@
 a{
     text-underline-position:initial;
-    color:white;
+    color:rgb(127, 40, 145);
     text-align: center;
 }
 .projects{
     transition-duration:.5s;
+    /* opacity: .5; */
 }
 .projects:hover{
     border-radius:50px;
-    background-color:rgb(48, 48, 48);
+    background-color:rgb(49, 49, 49);
+    z-index: -2;
+    opacity: .2;
 }

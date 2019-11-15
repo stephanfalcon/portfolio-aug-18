@@ -2,12 +2,17 @@
     font-size:25px;
     background:rgb(118, 116, 141);
     border-radius:20px;
-    width:150%;
-    padding:10px
+    width:100%;
+    padding:10px;
+    margin:auto;
+    height: 100%
 }
 .photo{
     height:100%;
     border-radius:20px;
+}
+.photo:hover{
+
 }
 .photoD{
     height:50%
