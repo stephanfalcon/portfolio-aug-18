@@ -6,3 +6,17 @@
 .foot{
     height:0px
 }
+
+.contact-form{
+    align-content: center;
+
+}
+
+input,textarea,.contact-title{
+    margin-left:15%;
+    padding-right:60%;
+}
+.submit{
+    margin-top:10px;
+    margin-left:15%;
+}
