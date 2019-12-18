@@ -4,20 +4,6 @@ import Contact from "./components/container/contact/contact"
 import Header from "./components/container/header/header"
 
 class App extends Component {
-  // state = {
-  //   obj : []
-  // }
-
-  componentDidMount(){
-    // fetch("/users")
-    //   .then(res => res.json())
-    //   .then(users => this.setState({obj:users},(res=>{
-    //     console.log(res)
-    //   })))
-      // .then(res => console.log(res))
-        // .then(users => console.log(users))
-        // .then(users => {this.setState({users}); console.log(users)})
-  }
   
   render(){
     return (

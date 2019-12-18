@@ -6,8 +6,8 @@ class Badge extends Component{
         return(
             <div className={"col-lg-3 center-content cards"}>
                 <div>
-                    <a href={this.props.link}><img src={this.props.img} alt={this.props.name} className={this.props.classes}/><p className ={"badgeText"}>{this.props.description}</p></a>
-                    
+                    <a href={this.props.link}><img src={this.props.img} alt={this.props.name} className={this.props.classes}/></a>
+                    <p className ={"badgeText"}>{this.props.description}</p>
                 </div>
                 
                 <h3 className={"text-center title"}>{this.props.name}</h3>
