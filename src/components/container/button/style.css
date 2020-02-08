@@ -1,0 +1,14 @@
+.button{
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: white;
+    color:rgb(81, 69, 124);
+    border-color: rgb(81, 69, 124);
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.button:hover{
+    background:rgb(81, 69, 124);
+    border-color: rgb(81, 69, 124);
+}
