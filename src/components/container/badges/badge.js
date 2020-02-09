@@ -4,7 +4,7 @@ class Badge extends Component{
 
     render(){
         return(
-                 <div className={"badgeDiv col-lg-1 col-xs-4"}>
+                 <div style={this.props.styling}className={"badgeDiv col-lg-1 col-xs-4"}>
                     <div className={"d-flex justitfy-content-center"}>
                         <a href={this.props.link} className={"anchor"}><img src={this.props.img} alt={this.props.name} className={"badgeImage"}/></a>
                     </div>

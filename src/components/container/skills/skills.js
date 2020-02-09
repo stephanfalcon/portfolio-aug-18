@@ -5,7 +5,53 @@ import InfoRow from "./inforow/infoRow"
 
 class Skills extends Component{
 
+    badgeRender = () => {
+
+        let imageInfo = [
+            {title:'Mongo',
+            img:"mongo-logo.png"},
+            {title:'Express',
+            img:"express-logo.png"},
+            {title:'React',
+            img:"react-logo.png"},
+            {title:'Node.js',
+            img:"node-logo.png"},
+            {title:'Javascript',
+            img:"js-logo.png"},
+            {title:'HTML 5',
+            img:"html-logo.png"},
+            {title:'Git',
+            img:"git-logo.png"},
+            {title:'Github',
+            img:"gitgun-logo.png"},
+            {title:'Heroku',
+            img:"heroku-logo.png"},
+        ]
+        
+        let red = 150
+
+        let green = 0
+
+        let blue = 50
+
+        let newArray = []
+        imageInfo.map((img)=>{
+            let style ={
+                backgroundColor:`rgb(${red}, ${green}, ${blue})`
+            }
+            var badge = <Badge styling={style} classes={"col-lg-1 cards badgeImage"} title={img.title} img={img.img}/>            
+            red -= 10
+            green += 5
+            blue += 10
+            newArray.push(badge)
+
+        })
+        // return <Badge classes={"col-lg-1 cards badgeImage"} title={""} img={""}/>
+        return newArray
+    }
+
     render(){
+
         return(
             <div>
                 <h1>Skills</h1>
@@ -19,7 +65,7 @@ class Skills extends Component{
                     <Badge img={"/express-logo.png"} name={"Express"} classes={"badges"}/>
                     <Badge img={"/react-logo.png"} name={"React"} classes={"badges"}/>
                     <Badge img={"/node-logo.png"} name={"Node"} classes={"badges"}/> */}
-                    <Badge classes={"col-lg-1 cards badgeImage"} title={'Mongo'} img={"mongo-logo.png"}/>
+                    {/* <Badge classes={"col-lg-1 cards badgeImage"} title={'Mongo'} img={"mongo-logo.png"}/>
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'Express'} img={"express-logo.png"}/>
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'React'} img={"react-logo.png"}/>                
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'Node.js'} img={"node-logo.png"}/>
@@ -27,7 +73,8 @@ class Skills extends Component{
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'HTML 5'} img={"html-logo.png"}/>                
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'Git'} img={"git-logo.png"}/>
                     <Badge classes={"col-lg-1 cards badgeImage"} title={'Github'} img={"gitgun-logo.png"}/>
-                    <Badge classes={"col-lg-1 cards badgeImage"} title={'Heroku'} img={"heroku-logo.png"}/>
+                    <Badge classes={"col-lg-1 cards badgeImage"} title={'Heroku'} img={"heroku-logo.png"}/> */}
+                    {this.badgeRender()}
                     </div>
             </div>
         )

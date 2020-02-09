@@ -8,9 +8,9 @@ class Projects extends Component{
         return(
             <div>
                 <div className={"row"}>
-                    <img src={""} className={"col-lg-6"}></img>
+                    <img src={this.props.imageArray} alt={"timeclock"}className={"col-lg-6"}></img>
                     <div className={"col-lg-6"}>
-                        <h2>{this.props.title}Title</h2>
+                        <h2>{this.props.title}</h2>
                         <hr></hr>
                         <h3>Features</h3>
                         <ul>

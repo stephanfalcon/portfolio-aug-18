@@ -25,7 +25,7 @@ class Container extends Component{
                     <Skills/>
                     <h1>Projects</h1>
                     <hr></hr>
-                    <Projects/>
+                    <Projects imageArray={"timeClock/timeClock2.png"} title={"Time Clock app"}/> 
                     <Projects/>
                     <Projects/>
 
