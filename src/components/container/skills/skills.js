@@ -39,7 +39,7 @@ class Skills extends Component{
             let style ={
                 backgroundColor:`rgb(${red}, ${green}, ${blue})`
             }
-            var badge = <Badge styling={style} classes={"col-lg-1 cards badgeImage"} title={img.title} img={img.img}/>            
+            var badge = <Badge key={img.title} styling={style} classes={"col-lg-1 cards badgeImage"} title={img.title} img={img.img}/>            
             red -= 10
             green += 5
             blue += 10
