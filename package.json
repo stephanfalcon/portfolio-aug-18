@@ -13,12 +13,8 @@
     "run":"react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject"
     
-=======
-    "eject": "react-scripts eject",
->>>>>>> parent of e292014... parse package.json
   },
   "eslintConfig": {
     "extends": "react-app"
