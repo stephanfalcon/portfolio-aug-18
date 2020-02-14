@@ -8,8 +8,8 @@ a{
     height:100%;
     /* background:orange; */
     padding:0px;
+    margin-top: 20px;
 }
-.projectDesc{}
 
 .projectDiv{
     background-color: rgb(240, 240, 240);
@@ -22,10 +22,15 @@ a{
 hr{
     width:90%
 }
+.info{
+    padding-bottom: 10px;
+}
+
 
 @media (max-width: 1000px){
     .projectImage{
         margin-left:10px;
         margin-right:10px;
+        margin-top:5px
     }
 }

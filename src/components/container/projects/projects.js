@@ -1,8 +1,8 @@
-import React, {Component} from "react"
-import Badges from "../badges/badge"
-import Button from "../button/button"
+import React, {Component} from 'react'
+import Badges from '../badges/badge'
+import Button from '../button/button'
 
-import "./style.css"
+import './style.css'
 
 class Projects extends Component{
 
@@ -30,9 +30,9 @@ class Projects extends Component{
     render(){
         return(
             <div className={'projectDiv'}>
-                <div className={"row"}>
-                    <img src={this.props.imageArray} alt={this.props.alt} className={"col-lg-6 projectImage"}/>
-                    <div className={"col-lg-6 projectDesc"}>
+                <div className={'row info'}>
+                    <img src={this.props.imageArray} alt={this.props.alt} className={'col-lg-6 projectImage'}/>
+                    <div className={'col-lg-6 projectDesc'}>
                         <h2>{this.props.title}</h2>
                         <hr></hr>
                             <p>{this.props.description}</p>
@@ -45,8 +45,8 @@ class Projects extends Component{
                 
                 </div>
                 
-                <div className={'row d-flex justify-content-center'}>
-                    <Button title={"app"}/> <Button title={"Code"}/>
+                <div className={'links row d-flex justify-content-center'}>
+                    <Button title={'app'} link={this.props.appLink}/> <Button title={'Code'} link={this.props.codeLink}/>
                 </div>
                 <hr></hr>
 
