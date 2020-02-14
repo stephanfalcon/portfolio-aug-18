@@ -9,9 +9,9 @@ class Header extends Component{
                 <div className={"jumbotron text-center header"}>
                 <h1 className={"text-light"}>Stephan Falcon</h1>
 
-                    <div className={"headDiv"}>
+                    {/* <div className={"headDiv"}>
                         <img className={"headImg "}src="/croppedMe.jpg"></img>
-                    </div>
+                    </div> */}
                         
                     
                 </div>

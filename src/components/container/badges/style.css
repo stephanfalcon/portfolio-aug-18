@@ -1,30 +1,45 @@
-.badges{
-    height:250px;
-    background:rgb(118, 116, 141);
-    width:250px;
-    padding:10px;
-    border-radius:25px;
-    
-    /* text-align:center; */
-
-}
-
-.badgeText{
-    z-index: -1;
-    position: absolute;
-    top:10px;
-    padding:10px;
-    padding-left:15px;
-    padding-right:30px;
-    line-height: 100%;
-
-    width:90%
-}
-
-.cards{
-    /* width:100% */
+.badgeDiv{
+    /* width:100%; */
+    /* height: 100%; */
+    background:rgb(92, 72, 163);
+    padding:0px;
+    padding-top:5px;
+    border-radius: 10px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
 }
 
 .badgeImage{
-    background:rgb(118, 116, 141)
+    width:85%;
+    height:100%;
+    border-radius: 5px;
 }
+
+.badgeTitle{
+    margin:0px;
+    color:rgb(250, 210, 210)
+}
+
+.badgeTitleDiv{
+    height:5%;
+}
+
+@media (min-width:0px) and (max-width:1000px) {
+    .badgeDiv{
+        width:25%;
+        height: 100%;
+        background:rgb(81, 69, 124);
+        padding:0px;
+        padding-top:5px;
+        border-radius: 10px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .badgeImage{
+        width:80%
+    }
+    .anchor{
+        width:100%
+    }
+ }
