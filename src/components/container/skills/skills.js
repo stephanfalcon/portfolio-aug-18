@@ -22,7 +22,7 @@ class Skills extends Component{
             img:"html-logo.png"},
             {title:'Git',
             img:"git-logo.png"},
-            {title:'Github',
+            {title:'Github', 
             img:"gitgun-logo.png"},
             {title:'Heroku',
             img:"heroku-logo.png"},
@@ -45,7 +45,7 @@ class Skills extends Component{
             blue += 10
             newArray.push(badge)
 
-        })
+        }) 
         // return <Badge classes={"col-lg-1 cards badgeImage"} title={""} img={""}/>
         return newArray
     }

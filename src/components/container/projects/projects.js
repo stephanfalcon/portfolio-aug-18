@@ -37,7 +37,7 @@ class Projects extends Component{
                         <hr></hr>
                             <p>{this.props.description}</p>
                         <hr></hr>
-                        <h3>Tech</h3>
+                        <h3>Tech</h3> 
                         <ul>
                             {this.tech()}
                         </ul>
