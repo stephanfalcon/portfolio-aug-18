@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import Badge from "../badges/badge"
+import Badge from "../badges/badge" 
 import InfoRow from "./inforow/infoRow"
 // import "./style.css"
 
