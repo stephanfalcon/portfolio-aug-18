@@ -3,6 +3,7 @@ a{
     color:rgb(127, 40, 145);
     text-align: center;
 }
+<<<<<<< HEAD
 .projectImage{
     border-radius:10px;
     height:100%;
@@ -34,3 +35,15 @@ hr{
         margin-top:5px
     }
 }
+=======
+.projects{
+    transition-duration:.5s;
+    /* opacity: .5; */
+}
+.projects:hover{
+    border-radius:50px;
+    background-color:rgb(49, 49, 49);
+    z-index: -2;
+    opacity: .2;
+}
+>>>>>>> parent of 2d2e7a6... added description and removed features

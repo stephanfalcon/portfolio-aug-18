@@ -36,7 +36,12 @@ class Projects extends Component{
                     <div className={'col-lg-6 projectDesc'}>
                         <h2>{this.props.title}</h2>
                         <hr></hr>
-                            <p>{this.props.description}</p>
+                        <h3>Features</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        </ul>
                         <hr></hr>
                         <h3>Tech</h3> 
                         <ul>
