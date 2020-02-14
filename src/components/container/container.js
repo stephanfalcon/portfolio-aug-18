@@ -23,7 +23,6 @@ class Container extends Component{
                     </div>
                     
                     {/* <Jumbotron/> */}
-                    <Projects/>
                     <Skills/>
                     <h1>Projects</h1>
                     <hr></hr>
