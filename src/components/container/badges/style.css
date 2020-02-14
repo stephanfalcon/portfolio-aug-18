@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-.badgeDiv{
-    /* width:100%; */
-    /* height: 100%; */
-    background:rgb(92, 72, 163);
-    padding:0px;
-    padding-top:5px;
-    border-radius: 10px;
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-}
-=======
 .badges{
     height:250px;
     background:rgb(118, 116, 141);
@@ -18,7 +6,6 @@
     border-radius:25px;
     
     /* text-align:center; */
->>>>>>> parent of 63b458f... skills pictures added in
 
 }
 
