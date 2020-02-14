@@ -1,14 +1,14 @@
 .button{
     border-radius: 20px;
     border-width: 3px;
-    background-color: white;
-    color:rgb(81, 69, 124);
-    border-color: rgb(81, 69, 124);
-    margin-right:10px;
-    margin-left:10px;
+    background-color: transparent;
+    color:rgb(124, 1, 1);
+    border-color: rgb(124, 1, 1);
+    margin-right:25px;
+    margin-left:25px;
 }
 
 .button:hover{
-    background:rgb(81, 69, 124);
-    border-color: rgb(81, 69, 124);
+    background:rgb(124, 1, 1);
+    border-color: rgb(124, 1, 1);
 }
