@@ -22,6 +22,8 @@ class Container extends Component{
                         <Button title={'Linkedin'} link={'https://www.linkedin.com/in/stephan-falcon-23033514a/'}/>
                     </div>
                     
+                    {/* <Jumbotron/> */}
+                    <Projects/>
                     <Skills/>
                     <h1>Projects</h1>
                     <hr></hr>
