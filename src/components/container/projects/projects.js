@@ -7,40 +7,26 @@ import './style.css'
 
 class Projects extends Component{
 
-    features = () => {
-        console.log(this.props.features)
-        let list = this.props.features
-        let returnArray = []
-        list.map((item)=>{
-            returnArray.push(<li>{item.text}</li>)
-        })
-
-        return returnArray
-    }
-    tech = () => {
-        console.log(this.props.tech)
-        let list = this.props.tech
-        let returnArray = []
-        list.map((item)=>{
-            returnArray.push(<li>{item.text}</li>)
-        })
-
-        return returnArray
-    }
-
     render(){
         return(
-            <div className={'projectDiv'}>
+            <div>
                 <div className={"row"}>
-                    <img src={this.props.imageArray} alt={this.props.alt} className={"col-lg-6 projectImage"}/>
-                    <div className={"col-lg-6 projectDesc"}>
+                    <img src={this.props.imageArray} alt={"timeclock"}className={"col-lg-6"}></img>
+                    <div className={"col-lg-6"}>
                         <h2>{this.props.title}</h2>
                         <hr></hr>
-                            <p>{this.props.description}</p>
-                        <hr></hr>
-                        <h3>Tech</h3>
+                        <h3>Features</h3>
                         <ul>
-                            {this.tech()}
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        </ul>
+                        <hr></hr>
+                        <h3>Technology</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                         </ul>
                     </div>
                 
