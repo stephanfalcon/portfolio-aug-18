@@ -51,7 +51,7 @@ class Container extends Component{
                         codeLink={'https://github.com/cwp132/Speakeasy'}
                     />
                     <Projects 
-                        imageArray={'mealPanner/mealPanner1.png'} 
+                        imageArray={'foodplanner/foodplanner1.png'} 
                         alt={'meal planner app image'} 
                         title={'Meal Planner App'} 
                         description={`One of the first official project I worked on, but still one of my favoite.
