@@ -22,7 +22,7 @@ class Projects extends Component{
         let list = this.props.tech
         let returnArray = []
         list.map((item)=>{
-            returnArray.push(<li>{item.text}</li>)
+            returnArray.push(<li className={"col-lg-6"}>{item.text}</li>)
         })
 
         return returnArray
@@ -39,9 +39,9 @@ class Projects extends Component{
                             <p>{this.props.description}</p>
                         <hr></hr>
                         <h3>Tech</h3> 
-                        <ul>
+                        <div className={"row"} style={{paddingTop:'5px'}}>
                             {this.tech()}
-                        </ul>
+                        </div>
                     </div>
                 
                 </div>

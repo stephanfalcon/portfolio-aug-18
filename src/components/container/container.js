@@ -34,7 +34,7 @@ class Container extends Component{
                             clock at work. it records time clocked in time clocked out and time passed. 
                             it also allows you to leave a note to keep track of what exactly you were clocked in for, weather it be working on a project or a personal hobby. 
                             This is still a work in progress but fully functional as an mvp so exprect more features in the future.`} 
-                        tech={[{text:'poop'},{text:'poop'}]}
+                        tech={[{text:'react.js'},{text:'mongoose'},{text:'axios.js'},{text:'restful api'},{text:'express.js'}]}
                         appLink={'https://timeclock03.herokuapp.com/'}
                         codeLink={'https://github.com/stephanfalcon/TimeClock3'}
                     /> 
@@ -46,7 +46,7 @@ class Container extends Component{
                             Users can create an account and search for their favorite drink recipes. 
                             loging in will allow users to save drinks to their profile for later use. 
                             This pulls from a drink api that has over 500 different recipes.`} 
-                        tech={[{text:'poop'},{text:'poop'}]}
+                        tech={[{text:'react.js'},{text:'express.js'},{text:'restful api handling'},{text:'axios.js'},{text:'mongoose'},{text:'passport.js'}]}
                         appLink={'https://speakeasydrinks.herokuapp.com/'}
                         codeLink={'https://github.com/cwp132/Speakeasy'}
                     />
@@ -57,7 +57,7 @@ class Container extends Component{
                         description={`One of the first official project I worked on, but still one of my favoite.
                             This application helps users look up meal ideas by searching for ingredints, listing out meal and
                             giving nutrition dietary information and how to prepare said meals. great for those who want to get out of thier comfort zone and try new foods.`} 
-                        tech={[{text:'poop'},{text:'poop'}]}
+                        tech={[{text:'javascript'},{text:'jquery'},{text:'firebase'},{text:'ajax for api calling'}]}
                         appLink={'https://stephanfalcon.github.io/PlusUltraProject/'}
                         codeLink={'https://github.com/stephanfalcon/PlusUltraProject'}
                     />
