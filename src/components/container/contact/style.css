@@ -3,20 +3,25 @@
     padding:50px;
     background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperbro.com%2Fimg%2F489935.png&f=1&nofb=1");
 }
-.foot{
-    height:0px
+.form{
+    background-color: rgb(240, 240, 240,.8);
+    width:60%;
+    padding:20px;
+    border-radius:10px;
+    margin:0px
+
 }
 
-.contact-form{
-    align-content: center;
+.form-label{
 
 }
 
-input,textarea,.contact-title{
-    margin-left:15%;
-    padding-right:60%;
+.form-input{
+    width:100%;
+
 }
-.submit{
-    margin-top:10px;
-    margin-left:15%;
+
+.form-submit{
+    margin-top:20px;
 }
+
