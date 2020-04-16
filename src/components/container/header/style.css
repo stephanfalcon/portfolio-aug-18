@@ -2,16 +2,15 @@
     /* background-color:rgb(118, 116, 141); */
     background-repeat:no-repeat;
     background-size:100%;
-    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperbro.com%2Fimg%2F489935.png&f=1&nofb=1");
+    /* background-image:url(5382120.jpg); */
     background-position:0px,50px,0px,0px; 
     height:200px;
     border-radius: 0;
 }
 .headImg{
     background: orange;
-    background-width:500px;
+    /* background-width:500px; */
     height:100px;
-    width:;
     margin:30px;
     border-radius:100px;
     margin-top:30px;

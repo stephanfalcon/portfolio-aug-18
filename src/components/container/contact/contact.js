@@ -5,7 +5,7 @@ class Contact extends Component{
 
     render(){
         return(
-            <div className = {"col-lg-12 form-div contact d-flex justify-content-center"}>
+            <div className = {"col-lg-12 form-div contact d-flex justify-content-center"} style={{backgroundImage:"url(5382120.jpg)"}}>
 
                 <form className={"form"} action={"https://formspree.io/hoobaloob99@gmail.com"} method={"POST"}>
                     <h1>Contact</h1>
